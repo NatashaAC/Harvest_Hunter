@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: #000022;
+    font-size: 16px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+main {
+    position: absolute;
+    top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    background-color: #000022;
+    color: #d9d9db;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* opacity: .8; */
+    border: 1px solid #d9d9db;
+}
+
+.overlayTxt {
+    width: 85%;
+    margin: 25% auto;
+    padding: 10px 0;
+}
+
+/************ FOOTER *************/
+.footer {
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    right: 0;
+    bottom: 0;
+    padding: 5px 50px;
+    align-items: center;
+    column-gap: 15px;
+    color: #d9d9db;
+}
+
+.copyRight {
+    font-size: 0.875em;
+}
+
+ul .socialIcons {
+    list-style: none;
+    display: inline;
+    width: 30px;
+}
+
+.socialIcons a img {
+    width: 30px;
+}
